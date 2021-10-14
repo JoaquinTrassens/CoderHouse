@@ -1,0 +1,48 @@
+.navheader{
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h2 a{
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px; 
+}
+
+html{
+    background-color: rgb(34, 2, 42);
+}
+
+.banner{
+    background-image: url(../image/csgoFondo.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    opacity: 80%;
+}
+
+.textos{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+    letter-spacing: normal;
+    background-color: transparent;
+}
