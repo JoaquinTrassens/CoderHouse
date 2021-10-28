@@ -1,0 +1,117 @@
+/* Importacion de fuentes desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+/* defino el margin y padding en 0, quitando el automatico que me hace el html */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Use ul porque ninguna lista quiero que tenga los puntos al estilo item */
+ul{
+    list-style: none;
+}
+/* voy cambiando el color del fondo de la pagina por seccion*/
+.fondoLogo , .menu-contenedor, footer{
+    background-color: rgb(31, 3, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+/* aplico propiedades de CSS en el logo principal de la pagina */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.logotipo
+{
+    width: 300px;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.logo
+{
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bellota Text', cursive;
+    display: flex;
+    justify-content: center;
+}
+/* Submenu del header */
+.submenu{
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bellota Text', cursive;
+    margin: 20px;
+}
+
+.banner{
+    background-image: url(../multimedia/background/csgoFondo.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    opacity: 80%;
+}
+
+.productos-container{
+    
+    display: grid;
+    border: 2px solid black;
+    
+    /* Definir filas con unidades de medida */
+    grid-template-rows: repeat(2,400px);
+    
+    /* Definir las columnas */
+    /* Fracciones - medidas relativas*/
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    /* Especie de margin entre las columnas */
+    gap: 10px;
+}
+
+.productos-grid
+{
+    border: 2px solid black;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.textosDeTienda{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+    letter-spacing: normal;
+    background-color: transparent;
+    font-family: 'Khand', sans-serif;
+}
+
+.textos{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+    letter-spacing: normal;
+    background-color: transparent;
+    font-family: 'Khand', sans-serif;
+    display: flex;
+    justify-content: start;
+}
+
+h1
+{
+    position: relative;
+    left: 1000px;
+    right:1000px;
+    font-size: 50px;
+    display: inline;
+}
