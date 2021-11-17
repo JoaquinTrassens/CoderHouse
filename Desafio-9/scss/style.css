@@ -1,0 +1,29 @@
+.bg-purple {
+  background-color: #c484ff;
+}
+
+.footer {
+  background-color: #c484ff;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.box-carousel {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.segundaSeccion {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+body {
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */
