@@ -1,0 +1,124 @@
+.bg-purple {
+  background-color: #c484ff;
+}
+
+.footer {
+  background-color: #c484ff;
+  position: fixed;
+  bottom: 0;
+}
+
+.puntoListas {
+  list-style: none;
+}
+
+.hipervinculos {
+  text-decoration: none;
+  color: #212529;
+}
+
+.logoFooter {
+  margin-top: 5px;
+}
+
+.ultimoMensajeFooter {
+  display: inline;
+  margin: 0;
+}
+
+.box-carousel {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.segundaSeccion {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.columnaIconos {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  .titulosFooter {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hipervinculos {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoFooter {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .titulosFooter {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hipervinculos {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoFooter {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulosFooter {
+    font-size: 22px;
+    margin-top: 6px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
